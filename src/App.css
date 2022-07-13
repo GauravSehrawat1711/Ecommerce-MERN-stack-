@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
-}
+.nav-ul li{
+   display: inline-block;
 
+   border: 1px solid black;
+    padding: 10%;
+  
+}
+.nav-ul{
+    padding: 10px;;
+}
+.foot{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+}
+.inputbox{
+    padding: 7px;
+    display: block;
+    border: 1px solid skyblue;
+    width: 300px;
+    margin: 20px;
+}
+.appButton{
+    margin: 20px;
+    width: 150px;
+    padding: 10px;
+    background-color: skyblue;
+    border: solid 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sign{
+    margin-top: 5%;
+    margin-left: 33%;
+}
+.register{
+    margin-left: 1.5%; 
+}  
+.product{
+    margin-left: 25%;
+}
+.valid_input{
+    margin-top: -24px;
+    margin-left: 28px;
+    color: red;
+   
+    display: block;
+}
+.logo{
+    width: 75px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right:15px ;
+   
+}
+.product-list{
+   text-align: center;
+   margin-top: 50px;
+
+}
+.profile{
+    margin-top: 70px;
+    margin-left: 33%;
+    border: #61dafb;
+   
+}
+.profile>h2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #2e5863;
+}
+.delete{
+    width: 70px;
+    margin-right: 3px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid  skyblue 1px;
+}
+.delete:hover{
+    color: red;
+}
+.search-product-box{
+    width: 450px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+.product-list ul li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid skyblue;
+    width: 150px;
+}
+.product-list ul{
+    margin:0;
+}
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .login{
+    margin-left:30% ;
+    margin-top: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
-}
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
